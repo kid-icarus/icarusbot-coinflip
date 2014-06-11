@@ -8,18 +8,6 @@ module.exports = function(bot) {
       return;
     }
 
-    var FLIP = function() {
-      if (msg.sender === 'mrf') {
-        coin = 'TAILZ';
-      }
-      bot.msg([msg.chan], (msg.sender + ': ' + coin));
-    }
-
-    if (matches[1] === 'me off') {
-      bot.msg([msg.chan], (msg.sender + ': t(-.-t)'));
-    }
-    else {
-      FLIP();
-    }
+    bot.msg([msg.chan], (msg.sender + ': ' + coin));
   });
 }
