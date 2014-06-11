@@ -1,7 +1,7 @@
 {
   "name": "icarusbot-coinflip",
   "version": "0.0.1",
-  "description": "An  icarusbot plugin that flips a coin.",
+  "description": "An icarusbot plugin that flips a coin.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
