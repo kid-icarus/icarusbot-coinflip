@@ -4,4 +4,4 @@
 Take fate into your own hands. Go ahead.
 
 Available commands:
--`!flip` - Takes fate into your own hands
+ - `!flip` - Takes fate into your own hands
